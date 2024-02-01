@@ -1,6 +1,6 @@
 var cart = [];
 
-function addToCart() {
+function addToCart1() {
     var product = {
         image: "images/product/f1.jpg",
         name: "Colourful Pattern Shirt",
@@ -8,6 +8,14 @@ function addToCart() {
         quantity: 1,
         subtotal: 499
     };
+    
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart2() {
     var product = {
             image: "images/product/f2.jpg",
             name: "Patterned Resort Shirt",
@@ -15,6 +23,14 @@ function addToCart() {
             quantity: 1,
             subtotal: 499
         };
+    
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart3() {
     var product = {
                 image: "images/product/f3.jpg",
                 name: "Vintage Beige Floral Shirt",
@@ -22,6 +38,13 @@ function addToCart() {
                 quantity: 1,
                 subtotal: 499
             };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart4() {
     var product = {
                     image: "images/product/f4.jpg",
                     name: "Flowers Sleeve Lapel Shirt",
@@ -29,6 +52,13 @@ function addToCart() {
                     quantity: 1,
                     subtotal: 499
                 };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart5() {
     var product = {
         image: "images/product/f5.jpg",
         name: "Vintage Floral Oil Shirt",
@@ -36,6 +66,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 599
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart6() {
     var product = {
         image: "images/product/f6.jpg",
         name: "Vintage Henley Shirt",
@@ -43,6 +80,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 799
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart7() {
     var product = {
         image: "images/product/f7.jpg",
         name: "Leirke Capri Pants",
@@ -50,6 +94,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 399
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart8() {
     var product = {
         image: "images/product/f8.jpg",
         name: "Element Pattern Print Top",
@@ -57,6 +108,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 699
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart9() {
     var product = {
         image: "images/product/n1.jpg",
         name: "Regular Fit Linen-blend grandad shirt",
@@ -64,6 +122,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 499
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart10() {
     var product = {
         image: "images/product/n2.jpg",
         name: "Grey Striped shirt",
@@ -71,6 +136,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 499
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart11() {
     var product = {
         image: "images/product/n3.jpg",
         name: "Classic White Shirt",
@@ -78,6 +150,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 499
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart12() {
     var product = {
         image: "images/product/n4.jpg",
         name: "Bristum 1-Pocket Service Straight Shirt",
@@ -85,6 +164,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 399
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart13() {
     var product = {
         image: "images/product/n5.jpg",
         name: "Solid Denim Shirt",
@@ -92,6 +178,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 599
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart14() {
     var product = {
         image: "images/product/n6.jpg",
         name: "Comfort Fit Half-Pant",
@@ -99,6 +192,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 499
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart15() {
     var product = {
         image: "images/product/n7.jpg",
         name: "Men Beige Solid Slim Fit Shirt",
@@ -106,6 +206,13 @@ function addToCart() {
         quantity: 1,
         subtotal: 599
     };
+    cart.push(product);
+    // updateCart();
+    // Save the cart in local storage
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function addToCart16() {
     var product = {
         image: "images/product/n8.jpg",
         name: "Grey Regular Fit Shirt",
@@ -114,7 +221,7 @@ function addToCart() {
         subtotal: 399
     };
     cart.push(product);
-    updateCart();
+    // updateCart();
     // Save the cart in local storage
     localStorage.setItem("cart", JSON.stringify(cart));
 }
